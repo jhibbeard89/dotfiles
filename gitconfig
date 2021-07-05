@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = jhibbeard@gmail.com
+	name = James Hibbeard
