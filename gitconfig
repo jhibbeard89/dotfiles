@@ -52,3 +52,5 @@
 [user]
 	email = jhibbeard@gmail.com
 	name = James Hibbeard
+[init]
+	defaultBranch = main

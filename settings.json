@@ -5,6 +5,9 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.rulers":
     [
         80,
@@ -14,7 +17,7 @@
     "editor.snippetSuggestions": "top",
     "editor.trimAutoWhitespace": true,
     "editor.useTabStops": true,
-    "editor.fontSize": 17,
+    "editor.fontSize": 15,
     "editor.scrollBeyondLastLine": true,
     "editor.showFoldingControls": "always",
     "emmet.includeLanguages":
@@ -34,24 +37,23 @@
     "files.trimTrailingWhitespace": true,
     "files.exclude":
     {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "node_modules": true,
-        "tmp": true,
-        "log": true,
-        ".asset-cache": true,
-        ".bundle": true,
-        ".ipynb_checkpoints": true,
-        ".pytest_cache": true,
-        ".sass-cache": true,
-        ".svn": true,
-        "__pycache__": true,
-        "_site": true,
-        "build": true,
-        "coverage": true,
-        "dist": true,
-        "public/packs": true,
-        "**/.egg-info": true
+      "__pycache__": true,
+      "_site": true,
+      ".asset-cache": true,
+      ".bundle": true,
+      ".ipynb_checkpoints": true,
+      ".pytest_cache": true,
+      ".sass-cache": true,
+      ".svn": true,
+      "**/.DS_Store": true,
+      "**/.egg-info": true,
+      "**/.git": true,
+      "build": true,
+      "coverage": true,
+      "log": true,
+      "node_modules": true,
+      "public/packs": true,
+      "tmp": true
     },
     "files.watcherExclude":
     {
@@ -62,7 +64,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
@@ -79,5 +80,11 @@
         "rubocop": true
     },
     "ruby.intellisense": "rubyLocate",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "window.closeWhenEmpty": true,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Night Owl",
+    "git.autofetch": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
