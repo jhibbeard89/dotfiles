@@ -50,7 +50,7 @@
 [pull]
   rebase = false
 [user]
-	email = Hibbeard
-	name = James
+	email = jhibbeard@gmail.com
+	name = James Hibbeard
 [init]
 	defaultBranch = main
